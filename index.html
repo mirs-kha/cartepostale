@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="all">
+
+        <div class="carte">
+            <h2>Ma carte postale perso</h2>
+            <img src="carte.png" alt="">
+            <div id="imagepaysage"></div>
+
+            <p id="valueInput"></p>
+
+
+            <p id="valueInputmessage"></p>
+        </div>
+
+
+        <div class="formulaire">
+            <label for="titre">Choissir un titre :</label>
+            <input class="input-text" type="text" id="titre">
+
+            <label for="message">Votre message:</label>
+
+            <textarea class="input-area" id="message" name="message" rows="5" cols="33">
+                It was a dark and stormy night...
+            </textarea>
+
+            <p>Choisir une image :</p>
+            <input type="radio" id="paysage1" name="paysage" value="montagne">
+            <label for="paysage1"> Montagne</label><br>
+
+            <input type="radio" id="paysage2" name="paysage" value="ferme">
+            <label for="paysage2">Ferme</label><br>
+
+            <input type="radio" id="paysage3" name="paysage" value="Boat">
+            <label for="paysage3"> mer</label><br>
+            
+            
+            <input type="radio" id="paysage4" name="paysage" value="apero" checked>
+            <label for="paysage3">apero</label>
+            
+            <br><br>
+
+
+
+            <label for="body">Couleur de la police :</label>
+            <input type="color" id="colorpicker" value="#f6b73c"><br>
+
+
+            <br><br>
+
+            <p>Choisir une police :</p>
+            <input type="radio" id="police1" name="police" value="roboto">
+            <label for="police1"> roboto</label><br>
+
+            <input type="radio" id="police2" name="police" value="Lora">
+            <label for="police2">Lora</label><br>
+
+            <input type="radio" id="police3" name="police" value="Bebas Neue" checked>
+            <label for="police3"> Bebas Neue</label><br>
+            
+
+            
+
+
+
+
+            <button id="submit">sub</button>
+
+
+        </div>
+    </div>
+    <script src="cp.js"></script>
+</body>
+
+</html>
